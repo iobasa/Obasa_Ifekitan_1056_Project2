@@ -1,0 +1,179 @@
+body {
+  color: #000;
+  background-color: #ededed;
+}
+
+#siteContainer
+{
+	margin: 0 auto;
+	width: 1000px;
+  background-color: white;
+}
+
+#headline img {
+  width: 1000px;
+  height: 350px;
+}
+
+#headline h1
+{
+  font-family: "interstate", sans-serif;
+  font-weight: 700;
+  font-style: black;
+  font-size: 30px;
+	position: absolute;
+  margin-left: 250px;
+  margin-right: 200px;
+  top: 150px;
+  z-index: +1;
+  text-align: center;
+	color: black;
+	padding: 20px;
+	background-color: white;
+}
+
+.aboutUs {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+#fish_pic img {
+  width: 180px;
+  height: auto;
+  margin-left: 100px;
+}
+
+#firstInfo {
+  font-size: 16px;
+  font-family: "interstate", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 30px;
+  margin-right: 100px;
+}
+
+.Objectives {
+  margin-right: 200px;
+}
+
+.Objectives p {
+  text-align: center;
+  font-size: 25px;
+  font-family: "interstate", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  margin-left: 240px;
+  margin-bottom: 10px;
+}
+
+#ObjectiveList li {
+  color: #2F2D30;
+  list-style-type: square;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 250px;
+  margin-top: 7px;
+}
+
+#whatWedo{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#whatWedo h2 {
+  font-size: 30px;
+  font-family: "jubilat", serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#environmental_pic img {
+  width: 300px;
+  height: 200px;
+}
+
+#environmental_pic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#WWDtext {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+#WWDtext p {
+  font-size: 17px;
+  font-family: "grange";
+  font-weight: bold;
+  color: #666;
+  display: flex;
+  justify-content: center;
+}
+
+#Rainbowtrout h2{
+  font-size: 30px;
+  font-family: "grange";
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px black;
+}
+
+#Rainbowtrout img {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content:  center;
+  align-items:  center;
+  margin-top: 50px;
+}
+
+#RTtext
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#RTtext p
+{
+  font-family: "mr-eaves-xl-modern-narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 20px;
+  line-height: 20px;
+  color: #072111;
+  font-size: 16px;
+}
+
+#fry, #Cut, #trout {
+  color: #fff;
+  width: 300px;
+}
+
+#source {
+  font-family: "mr-eaves-xl-modern-narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 20px;
+}
